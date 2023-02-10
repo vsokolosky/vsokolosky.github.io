@@ -52,6 +52,8 @@ div.about {
 
 img {
   border-radius: 50%;
+  max-width: 100%;
+  width: 300px;
 }
 
 a.info-email {
