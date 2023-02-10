@@ -1,0 +1,101 @@
+body {
+  font-family: helvetica;
+  color: #4b4b4b;
+  background: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: #fcfcfc;
+  border-top: 5px solid #9d79c9;
+  border-bottom: 1px solid #eeeeee;
+}
+
+div.nav-div {
+  margin: 5px;
+  padding: 10px;
+  color: #9d79c9;
+}
+
+a {
+  color: #8f979e;
+  text-decoration: none;
+}
+
+div.container {
+  display: flex;
+  padding: 20px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  justify-content: center;
+  flex-direction: row;
+}
+
+div.info {
+  margin: 5px;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+}
+
+div.line {
+  margin: 5px;
+  border-left: 1px solid #eeeeee;
+}
+
+div.about {
+  margin: 5px;
+  padding: 20px;
+  flex: 2;
+}
+
+img {
+  border-radius: 50%;
+}
+
+a.info-email {
+  color: #7c43bf;
+}
+
+div.bottom-flex {
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(ellipse at bottom, #eeeeee 0%, transparent 60% );
+
+}
+
+h1 {
+  color: #565656;
+  font-weight: normal;
+}
+
+h2 {
+  color: #555555;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 800px) {
+  div.container {
+      flex-direction: column;
+  }
+}
+
+div.flexbox-table {
+  display: flex;
+  flex-direction: column;
+}
+
+div.flexbox-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.flex-right {
+  text-align: right;
+}
+
+span.larger-letters {
+  font-size: 20px;
+}
